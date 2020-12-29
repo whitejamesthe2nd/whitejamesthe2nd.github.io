@@ -2248,7 +2248,8 @@ input, select, textarea {
 
 			#main > section.one {
 				background-color: #81918E;
-				background-image: url("../../images/banner.jpg");
+				background-image: url("../../images/Galaxy.png");
+				color: #222629;
 			}
 
 			#main > section.two {
@@ -2630,4 +2631,8 @@ input, select, textarea {
 					margin-top: 0;
 				}
 
+	}
+	.image1{
+		background-image: url(../../images/Galaxy.png);
+		/* background-size: 300px; */
 	}
