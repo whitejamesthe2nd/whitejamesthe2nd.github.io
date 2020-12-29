@@ -1760,9 +1760,10 @@ input, select, textarea {
 			background: #f00;
 		}
 
-			.image.avatar48 img {
-				width: 48px;
-				height: 48px;
+		.image.avatar48 img {
+			width: 48px;
+			height: 48px;
+			border-radius: 5px;
 			}
 
 		.image.fit {
@@ -1772,7 +1773,7 @@ input, select, textarea {
 
 		.image.featured {
 			display: block;
-			width: 100%;
+			/* width: 100%; */
 			margin: 0 0 2em 0;
 		}
 
@@ -2631,8 +2632,4 @@ input, select, textarea {
 					margin-top: 0;
 				}
 
-	}
-	.image1{
-		background-image: url(../../images/Galaxy.png);
-		/* background-size: 300px; */
 	}
